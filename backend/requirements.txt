@@ -1,0 +1,32 @@
+# ===== Week 1: Core Backend =====
+# FastAPI - the web framework that handles incoming HTTP requests
+fastapi==0.115.0
+
+# Uvicorn - the server that actually RUNS your FastAPI app
+# (FastAPI is just the code, uvicorn is the engine that serves it)
+uvicorn==0.30.6
+
+# python-dotenv - reads your .env file so you don't hardcode secrets
+python-dotenv==1.0.1
+
+# httpx - makes HTTP requests to GitHub's API
+# (like 'requests' but supports async, which FastAPI needs)
+httpx==0.27.2
+
+# pydantic - data validation (FastAPI uses this under the hood)
+# Already installed with FastAPI, but we list it explicitly
+pydantic==2.9.2
+
+# ===== Week 2: AI Agents =====
+langgraph
+langchain-core
+langchain-groq
+
+# ===== Week 3: Testing & Evaluation =====
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# ===== Week 4: Long-Term Memory (Vector DB) =====
+qdrant-client
+sentence-transformers
+langchain-huggingface
