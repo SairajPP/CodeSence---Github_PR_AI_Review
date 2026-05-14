@@ -21,3 +21,6 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Qdrant Database
+qdrant_data/
