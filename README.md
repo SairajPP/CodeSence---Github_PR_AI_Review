@@ -1,8 +1,8 @@
-# 🤖 CodeSense - AI-Powered Automated Code Review Platform
+#  CodeSense - AI-Powered Automated Code Review Platform
 
 CodeSense is a robust, multi-agent automated code review system built with **FastAPI, Next.js, LangGraph, and Groq**. It connects directly to your GitHub repositories via webhooks, acting as an autonomous, extremely intelligent senior engineer that reviews Pull Requests instantly.
 
-## 🌟 Key Features
+##  Key Features
 
 - **Parallel Multi-Agent Review:** Utilizes specialized LangChain/Groq agents (Security, Performance, Logic, and Style) working in parallel to deeply analyze PR diffs.
 - **Synthesis Engine:** A master synthesis agent deduplicates findings, calculates severity (Critical, Warning, Info), and posts a consolidated review directly to the GitHub Pull Request.
@@ -11,7 +11,7 @@ CodeSense is a robust, multi-agent automated code review system built with **Fas
 - **Automated Email Summaries:** Sends immediate email notifications to developers summarizing the AI review, including severity breakdowns and actionable fixes.
 - **Auto-Documentation Companion:** Listens for merged PRs and automatically updates the repository's `README.md` via AI to reflect the new changes, pushing the commit directly to the branch.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 CodeSense/
@@ -19,7 +19,7 @@ CodeSense/
 └── frontend/         # Next.js 14 App Router, Tailwind CSS, Recharts dashboard
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -61,7 +61,7 @@ Then go to your GitHub Repository -> Settings -> Webhooks -> Add Webhook:
 - **Secret:** The same secret you put in your backend `.env`
 - **Events:** Select "Pull requests"
 
-## 🧪 Running Tests
+##  Running Tests
 The backend uses `pytest` for rigorous unit testing of agents, memory retrieval, and API integration.
 ```bash
 cd backend
